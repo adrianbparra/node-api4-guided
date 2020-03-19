@@ -4,22 +4,25 @@
   "description": "Guided project for **Node API** module 4.",
   "main": "index.js",
   "scripts": {
-    "server": "nodemon index.js"
+    "server": "nodemon index.js",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/LambdaSchool/node-api4-guided.git"
+    "url": "git+https://github.com/adrianbparra/node-api4-guided"
   },
   "keywords": [],
-  "author": "Lambda School",
+  "author": "Adrian Parra",
   "bugs": {
-    "url": "https://github.com/LambdaSchool/node-api4-guided/issues"
+    "url": "https://github.com/adrianbparra/node-api4-guided/issues"
   },
-  "homepage": "https://github.com/LambdaSchool/node-api4-guided#readme",
+  "homepage": "https://github.com/adrianbparra/node-api4-guided#readme",
   "dependencies": {
+    "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "helmet": "^3.21.3",
     "knex": "^0.20.11",
+    "node-pre-gyp": "^0.14.0",
     "sqlite3": "^4.1.1"
   },
   "devDependencies": {
